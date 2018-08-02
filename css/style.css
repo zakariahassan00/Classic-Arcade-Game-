@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+}
+
+.win {
+    box-sizing: border-box;
+    position: absolute;
+    min-width: 250px ;
+    min-height: 250px ;
+    width : 30% ;
+    height: 32%;
+    font: 30px sans-serif, arial;
+    background-color: aqua;
+    left: 35%;
+    border: 2px solid blue;
+    border-radius: 25px;
+    top : 10px ;
+    transform: translate(0, -120%);
+    transition: transform 1s ;
+}
+
+.win.show {
+    transform: translate(0, 40%);
+}
+
+#speedUp {
+    margin-top: 20px  ;
+    border: none ;
+    border-radius: 5px;
+    background-color: green ;
+    color: white ;
+    display: inline-block;
+    width: 160px;
+    height: 20px;
+    cursor: pointer;
+} 
+
